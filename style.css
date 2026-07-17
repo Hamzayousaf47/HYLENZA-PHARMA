@@ -1,1 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f7fa;
+  color:#333;
+  line-height:1.6;
+}
+
+header{
+  background:#0b7a3d;
+  color:white;
+  text-align:center;
+  padding:30px 20px;
+}
+
+header h1{
+  font-size:36px;
+}
+
+header p{
+  font-size:18px;
+  margin-top:10px;
+}
+
+nav{
+  background:#06662f;
+  text-align:center;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#ffd700;
+}
+
+section{
+  max-width:1000px;
+  margin:30px auto;
+  padding:20px;
+}
+
+.hero{
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero h2{
+  font-size:32px;
+  margin-bottom:15px;
+}
+
+.btn{
+  display:inline-block;
+  background:#0b7a3d;
+  color:white;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:5px;
+  margin-top:20px;
+}
+
+.btn:hover{
+  background:#06662f;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+  color:#0b7a3d;
+  margin-bottom:10px;
+}
+
+footer{
+  background:#0b7a3d;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
