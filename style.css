@@ -28,9 +28,12 @@ header p{
 }
 
 nav{
-  background:#06662f;
-  text-align:center;
-  padding:15px;
+    background:#06662f;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+    flex-wrap:nowrap;
 }
 
 nav a{
@@ -38,6 +41,7 @@ nav a{
   text-decoration:none;
   margin:0 15px;
   font-weight:bold;
+  font-size:18px;
 }
 
 nav a:hover{
