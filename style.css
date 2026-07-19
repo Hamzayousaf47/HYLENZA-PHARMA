@@ -165,10 +165,17 @@ footer{
   min-width:300px;
 }
 .product-details ul{
-    margin:15px 0 25px 20px;
+    list-style:none;
+    padding:0;
+    margin:15px 0 25px 0;
 }
 
 .product-details li{
-    margin-bottom:10px;
+    background:#eaf8ef;
+    border-left:5px solid #0b7a3d;
+    padding:12px 15px;
+    margin-bottom:12px;
+    border-radius:8px;
     font-size:17px;
+    font-weight:500;
 }
