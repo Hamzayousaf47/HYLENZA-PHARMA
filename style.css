@@ -147,3 +147,20 @@ footer{
 .back-btn:hover{
   background:#06662f;
 }
+.product-layout{
+  display:flex;
+  gap:40px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+
+.product-image{
+  flex:1;
+  min-width:280px;
+  text-align:center;
+}
+
+.product-info{
+  flex:2;
+  min-width:300px;
+}
