@@ -330,9 +330,15 @@ footer{
 }
 
 .slide img{
-  max-width:320px;
+  max-width:340px;
   width:100%;
-  border-radius:12px;
+  border-radius:20px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.25);
+  transition:transform 0.4s ease;
+}
+
+.slide img:hover{
+  transform:scale(1.05);
 }
 
 @keyframes fade{
