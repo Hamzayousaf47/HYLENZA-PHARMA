@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hamzayousaf47.github.io/HYLENZA-PHARMA/sitemap.xml
