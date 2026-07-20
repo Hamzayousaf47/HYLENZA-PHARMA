@@ -159,11 +159,18 @@ footer{
 }
 
 .card{
-  background:white;
-  padding:20px;
-  border-radius:10px;
-  box-shadow  border-radius:5px;
+  background:#ffffff;
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
   margin-bottom:20px;
+  text-align:center;
+  transition:all 0.3s ease;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 18px 40px rgba(11,122,61,0.18);
 }
 
 .back-btn:hover{
