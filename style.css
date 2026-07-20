@@ -236,3 +236,31 @@ footer{
 #contact a:hover{
   opacity:0.85;
 }
+.hero{
+  text-align:center;
+  padding:60px 20px;
+  background:#f1f8f4;
+}
+
+.hero h2{
+  font-size:36px;
+  color:#0b7a3d;
+  margin-bottom:15px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  font-size:18px;
+  color:#444;
+}
+
+.hero .btn{
+  display:inline-block;
+  margin-top:25px;
+  padding:12px 25px;
+  background:#0b7a3d;
+  color:white;
+  text-decoration:none;
+  border-radius:25px;
+}
