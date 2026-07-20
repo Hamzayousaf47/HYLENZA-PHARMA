@@ -103,8 +103,10 @@ section{
 }
 .card p{
   color:#555;
-  font-size:15px;
-  line-height:1.7;
+  font-size:17px;
+  line-height:1.8;
+  text-align:left;
+  margin-top:15px;
 }
 
 footer{
