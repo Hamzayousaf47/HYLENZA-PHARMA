@@ -56,8 +56,8 @@ section{
 
 .hero{
   text-align:center;
-  padding:80px 20px;
-  min-height:500px;
+  padding:100px 20px;
+  min-height:600px;
   display:flex;
   justify-content:center;
   align-items:center;
