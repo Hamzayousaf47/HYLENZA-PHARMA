@@ -306,3 +306,31 @@ footer{
   }
 
 }
+/* Hero Slider */
+
+.hero{
+  text-align:center;
+  padding:50px 20px;
+  position:relative;
+  overflow:hidden;
+}
+
+.slide{
+  display:none;
+  animation:fade 1s ease-in-out;
+}
+
+.slide.active{
+  display:block;
+}
+
+.slide img{
+  max-width:320px;
+  width:100%;
+  border-radius:12px;
+}
+
+@keyframes fade{
+  from{opacity:0;}
+  to{opacity:1;}
+}
