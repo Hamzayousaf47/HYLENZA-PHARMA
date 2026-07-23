@@ -71,10 +71,7 @@
 <a href="#about">About</a>
 <a href="#products">Products</a>
 <a href="#contact">Contact</a>
-  <div class="search-container">
-    <i class="fa-solid fa-magnifying-glass" onclick="toggleSearch()"></i>
-    <input type="text" id="searchInput" placeholder="Search products..." onkeypress="if(event.key==='Enter') searchSite()">
-  </div>
+  
 </nav>
 
 <section id="home" class="hero">
@@ -94,6 +91,24 @@
 </div>
 
 </section>
+  <section class="search-section">
+
+    <h2>Find Your Product</h2>
+
+    <div class="search-box">
+
+        <input type="text"
+               id="searchInput"
+               placeholder="Search products..."
+               onkeypress="if(event.key==='Enter') searchSite()">
+
+        <button onclick="searchSite()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+  </section>
 
 <section id="about">
 
