@@ -390,10 +390,11 @@ footer{
 }
 
 .about-image img{
-    width:100%;
-    max-width:900px;
-    border-radius:18px;
+    width:350px;
+    max-width:100%;
+    height:auto;
     display:block;
-    margin:auto;
+    margin:20px auto;
+    border-radius:18px;
     box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
