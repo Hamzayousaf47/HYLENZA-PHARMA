@@ -230,30 +230,26 @@ setInterval(() => {
   current = (current + 1) % slides.length;
   slides[current].classList.add("active");
 }, 5000);
-    function toggleSearch(){
-    document.querySelector(".search-container").classList.toggle("active");
-}
-
 function searchSite(){
-    let input = document.getElementById("searchInput").value.toLowerCase();
+    let input = document.getElementById("searchInput").value.toLowerCase().trim();
 
-    if(input.includes("prenacal")){
-        window.location.href="prenacal-d.html";
+    if(input.includes("prenacal") || input.includes("prenacal d")){
+        window.location.href = "prenacal-d.html";
     }
-    else if(input.includes("prena")){
-        window.location.href="prena-q.html";
+    else if(input.includes("prena") || input.includes("prena q")){
+        window.location.href = "prena-q.html";
     }
     else if(input.includes("about")){
-        location.href="#about";
+        location.href = "#about";
     }
-    else if(input.includes("products")){
-        location.href="#products";
+    else if(input.includes("product") || input.includes("products")){
+        location.href = "#products";
     }
     else if(input.includes("contact")){
-        location.href="#contact";
+        location.href = "#contact";
     }
     else{
-        alert("No results found.");
+        alert("No results found. Try: Prenacal D, Prena Q, About, Products or Contact.");
     }
 }
   </script>
