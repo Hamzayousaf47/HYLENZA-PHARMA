@@ -399,11 +399,12 @@ footer{
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 .search-container{
-    margin-left:auto;
+    margin-left:10px;
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:5px;
 }
+
 
 .search-container i{
     color:white;
@@ -422,7 +423,6 @@ footer{
 }
 
 .search-container.active input{
-    width:180px;
+    width:100px;
     opacity:1;
 }
-           
