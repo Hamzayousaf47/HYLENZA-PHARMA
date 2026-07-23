@@ -215,6 +215,32 @@ setInterval(() => {
   current = (current + 1) % slides.length;
   slides[current].classList.add("active");
 }, 5000);
+    function toggleSearch(){
+    document.querySelector(".search-container").classList.toggle("active");
+}
+
+function searchSite(){
+    let input = document.getElementById("searchInput").value.toLowerCase();
+
+    if(input.includes("prenacal")){
+        window.location.href="prenacal-d.html";
+    }
+    else if(input.includes("prena")){
+        window.location.href="prena-q.html";
+    }
+    else if(input.includes("about")){
+        location.href="#about";
+    }
+    else if(input.includes("products")){
+        location.href="#products";
+    }
+    else if(input.includes("contact")){
+        location.href="#contact";
+    }
+    else{
+        alert("No results found.");
+    }
+}
   </script>
 </body>
 </html>
