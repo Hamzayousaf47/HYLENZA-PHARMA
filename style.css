@@ -398,3 +398,31 @@ footer{
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
+.search-container{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.search-container i{
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.search-container input{
+    width:0;
+    opacity:0;
+    transition:0.4s;
+    padding:8px;
+    border:none;
+    border-radius:20px;
+    outline:none;
+}
+
+.search-container.active input{
+    width:180px;
+    opacity:1;
+}
+           
