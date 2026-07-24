@@ -82,6 +82,24 @@
 <a href="#contact">Contact</a>
   
 </nav>
+    <section class="search-section">
+
+    <h2>Find Your Product</h2>
+
+    <div class="search-box">
+
+        <input type="text"
+               id="searchInput"
+               placeholder="Search products..."
+               onkeypress="if(event.key==='Enter') searchSite()">
+
+        <button onclick="searchSite()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+    </section>
 
 <section id="home" class="hero">
 
@@ -100,24 +118,7 @@
 </div>
 
 </section>
-  <section class="search-section">
 
-    <h2>Find Your Product</h2>
-
-    <div class="search-box">
-
-        <input type="text"
-               id="searchInput"
-               placeholder="Search products..."
-               onkeypress="if(event.key==='Enter') searchSite()">
-
-        <button onclick="searchSite()">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-
-    </div>
-
-  </section>
 
 <section id="about">
 
